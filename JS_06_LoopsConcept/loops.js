@@ -1,0 +1,89 @@
+
+//1 to 10:
+
+//1. while:
+let i = 1;
+while (i <= 10) {
+    console.log(i);//1 2 3 4 5 6 7 8 9 10
+    i++;
+}
+
+console.log('------');
+
+while (true) {
+    console.log('welcome to NAL');
+    break;
+}
+
+console.log('------');
+
+let j = 1;
+while (j <= 15) {
+    console.log(j);//1 2 3 4 5 hello
+    if (j % 5 == 0) {
+        console.log('hello');
+        // break;
+    }
+    j++;//5
+    
+}
+console.log(j);//5
+
+console.log('------');
+
+//1 to 10:
+//for loop
+for (let p = 1; p <= 10; p++){
+    console.log(p); //1 2 3 4 5678910
+}
+
+//10 to 1:
+for (let m = 10; m >= 1; m--){
+    console.log(m);//10
+}
+
+//1 to 10:
+let n = 1;
+for ( ; n<=10; ){
+    console.log('hello NAL');
+    n++;
+}
+
+console.log('-------');
+for (;;){
+    console.log('welcome to hotel taj');
+    break;
+}
+
+console.log('-------');
+//do while loop:
+//1 to 10:
+let k = 1;
+do {
+    console.log(k);
+    k++;
+}
+while (k <= 10);
+
+
+
+
+//use cases of while loop: when number of iterations are not fixed
+//1. wait for element on the page: 0 2 5 10 15 20
+//2. wait for page loading: 0 2 5 10 
+//3. calendar: march 2027
+//4. webtable pagination: 
+//5. infinite scrolling: linkedin, insta, fb: 
+
+//use cases of for loop: when number of iterations are fixed
+//drop down: month: 1 to 12
+//date: 1 to 31
+//arrays: fixed
+
+//use cases for do-while:
+//1. ele is already present on the page...click on the ele --- break it
+
+
+//foreach
+//for of
+//for in

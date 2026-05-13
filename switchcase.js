@@ -1,5 +1,5 @@
 
-let browser = 'ie';
+let browser = 'chrome';
 
 switch (browser.trim().toLowerCase()) { 
     case 'chrome':
