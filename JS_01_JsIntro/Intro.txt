@@ -1,0 +1,40 @@
+What is JavaScript?
+
+JavaScript is a programming language that makes websites interactive and dynamic.
+While HTML provides the structure of a webpage and CSS controls its appearance,
+JavaScript adds behavior and functionality.
+
+JS is a Runtime/dynamic language.
+
+For example, JavaScript can:
+    1.Respond when a user clicks a button.
+    2.Validate forms before they are submitted.
+    3.Show animations and interactive menus.
+    4.Update content on a page without reloading it.
+    5.Build web applications, games, and even server-side programs.
+
+Where JavaScript is used
+    1.Web development (interactive websites)
+    2.Mobile app development
+    3.Server-side programming (using Node.js)
+    4.Browser-based games
+    5.Automation and scripting
+
+What is NodeJS?
+
+Node.js is a JavaScript runtime environment that lets you run JavaScript outside of a web browser.
+It is commonly used to build servers, APIs, command-line tools, and real-time applications.
+
+Normally, JavaScript runs in a browser (like Chrome or Firefox).
+With Node.js, you can also use JavaScript on your computer or a server.
+
+NodeJS --> lib/kit : tools + v8 engine
+
+What can you build with Node.js?
+    1.Web servers
+    2.REST APIs
+    3.Chat applications
+    4.File management tools
+    5.Command-line applications
+    6.Backend services for web and mobile apps
+
