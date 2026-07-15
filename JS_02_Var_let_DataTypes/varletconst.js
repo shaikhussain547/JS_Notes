@@ -10,6 +10,7 @@ var x = 10;
 var x = 20;
 var x = 30;
 console.log(x);
+console.log(typeof x); //number
 
 //2. Reassignment:
 var y = 100;
@@ -27,7 +28,7 @@ console.log('***************************');
 //2. let:
 //1. Declaration: Re-Declaration is not allowed
 let p = 10;
-//lep p = 20; // Shows compile error
+//let p = 20; // Shows compile error
 console.log(p);
 
 let a;
@@ -40,7 +41,7 @@ total = 1000;
 console.log(total); //100
 
 //3. Hoisting: Hoisting is allowed but with error at RT
-//console.log(h);  //Gives error
+console.log(h);  //Cannot access 'h' before initialization
 let h = 25;  //Shortcut to comment : Ctrl+/
 
 console.log('***************************');
@@ -59,7 +60,8 @@ const DAYS_IN_WEEK = 7;
 // const tr = 200;
 
 //4. Initialize error:
-//const num; 
+// const num;
+// console.log(num); //Gives Syntax Error: Missing initializer in const declaration
 
 //4. Hoisting:
 console.log(pi); //Cannot access 'pi' before initialization
@@ -68,3 +70,4 @@ const pi = 3.14;
 console.log('***************************');
 
 //scope of the variables: if-else, functions
+//Difference between var, let, const in terms of scope:
