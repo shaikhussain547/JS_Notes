@@ -28,8 +28,8 @@ console.log(q1);//-998
 
 let u = 0;
 let v = ++u;
-console.log(u);
-console.log(v);
+console.log(u);//1
+console.log(v);//1
 
 
 //3. post(later/after) decrement: --
@@ -42,12 +42,12 @@ console.log(n);//2
 
 let t = 2;
 let r = --t;
-console.log(t);
-console.log(r);
+console.log(t);//1
+console.log(r);//1
 
 let bill = 100;
 console.log(--bill);//99
-console.log(bill);
+console.log(bill);//99
 
 let amt = 10;
 console.log(amt--);//10

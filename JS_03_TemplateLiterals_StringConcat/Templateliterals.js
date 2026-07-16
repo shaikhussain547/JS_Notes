@@ -10,7 +10,7 @@ I have exp in selenium`;
 
 console.log(para);
 
-//op: I love 'javascript' coding
+//Print:- I love 'javascript' coding
 
 console.log('I love \'javascript\' coding');
 console.log("I love \"javascript\" coding");
@@ -23,7 +23,7 @@ console.log(`hi \`javascript\` code`);
 
 console.log(`the product name is 'macbook' and price '12.33$'`);
 
-//dynamic values:
+//Dynamic values:
 let username = 'seller';
 console.log('welcome ' + username);
 console.log(`welcome ${username}`);
