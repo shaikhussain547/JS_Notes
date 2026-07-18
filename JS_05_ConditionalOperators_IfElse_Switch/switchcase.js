@@ -1,5 +1,5 @@
 
-let browser = 'chrome';
+let browser = 'opera';
 
 switch (browser.trim().toLowerCase()) { 
     case 'chrome':
@@ -111,7 +111,7 @@ switch (true) {
     case 'line':
         console.log('line');
         break;
-    case true:
+    case 'bar':
         console.log('hello');
         break;
 
@@ -119,3 +119,5 @@ switch (true) {
         console.log('bye');
         break;
 }
+
+

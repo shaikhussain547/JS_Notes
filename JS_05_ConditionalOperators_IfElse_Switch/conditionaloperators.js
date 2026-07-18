@@ -58,7 +58,7 @@ else {
 }
 
 
-console.log('--- if if if else-----');
+console.log('---parallel if if if else-----');
 let browser = 'chrome';
 
 if (browser === 'chrome') {
