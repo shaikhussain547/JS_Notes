@@ -13,17 +13,3 @@ let age = 5;
 let isEligible = age >= 18 ? 'elgible for voting' : 'not elgible for voting';
 console.log(isEligible);
 
-
-// let number = 90;
-// switch (10) {
-//     case (number>=90):
-//         console.log('hi');
-//         break;
-//     case (number<90):
-//         console.log('hello');
-//         break;
-
-//     default:
-//         console.log('bye');
-//         break;
-// }

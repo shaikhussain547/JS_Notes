@@ -29,10 +29,10 @@ while (j <= 15) {
 }
 console.log(j);//5
 
-console.log('------');
+console.log('*************************');
 
+//2.for loop
 //1 to 10:
-//for loop
 for (let p = 1; p <= 10; p++){
     console.log(p); //1 2 3 4 5678910
 }
@@ -44,6 +44,12 @@ for (let m = 10; m >= 1; m--){
 
 //1 to 10:
 let n = 1;
+// for(let n=1; n <=10; n++) {
+//     console.log(n);
+// }
+// for(; n <=10; n++) {
+//     console.log(n);
+// }
 for ( ; n<=10; ){
     console.log('hello NAL');
     n++;
@@ -55,8 +61,8 @@ for (;;){
     break;
 }
 
-console.log('-------');
-//do while loop:
+console.log('*************************');
+//3. Do while loop:
 //1 to 10:
 let k = 1;
 do {

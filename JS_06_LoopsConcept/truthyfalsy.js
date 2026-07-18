@@ -19,10 +19,7 @@ if (" ") {
 }
 else {
     console.log('hello');
-
 }
-
-
 
 //Truthy Values
 //Everything else is truthy! Here are common examples:

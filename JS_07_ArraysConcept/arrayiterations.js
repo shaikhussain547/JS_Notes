@@ -1,4 +1,4 @@
-let num = [10, 20, 30, 40]; //0-3, l=4
+let num = [10, 20, 30, 40]; //0-3, length=4
 
 //to print all the values of array: use for loop:
 for(let i=0; i<num.length; i++){

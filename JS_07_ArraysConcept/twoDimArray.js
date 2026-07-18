@@ -11,11 +11,11 @@ let num = [
 
 
 //index - normal loop:
-// for (let i = 0; i < num.length; i++){
-//     for (let j = 0; j < num[i].length; j++){
-//         console.log(num[i][j]);
-//     }
-// }
+for (let i = 0; i < num.length; i++){
+    for (let j = 0; j < num[i].length; j++){
+        console.log(num[i][j]);
+    }
+}
 
 for (let i = 0; i < num.length; i++){
     for (let j = 0; j < num[i].length; j++){

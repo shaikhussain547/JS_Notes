@@ -13,13 +13,13 @@ console.log(num[3]);
 console.log(num[4]);//undefined
 console.log(num[40]);//undefined
 
-//li = 0;
-//hi = len -1;
-//len = hi+1;
+//lowest index = 0;
+//highest index = len -1;
+//length = highest index +1;
 
 console.log(num.length);//4
-console.log("li = " + 0);
-console.log("hi= " + (num.length - 1));
+console.log("lowest index = " + 0);
+console.log("highest index = " + (num.length - 1));
 
 num[4] = 50;
 console.log(num);
@@ -35,22 +35,22 @@ num[8] = 900;
 console.log(num);
 
 
-console.log('-----------');
+console.log('******************');
 
-let stName = ['tom', 'ravi'];
-console.log(stName);
-stName[0] = 'naveen';
-console.log(stName);
-stName[5] = 'rohit';
-console.log(stName);
+let arrName = ['tom', 'ravi'];
+console.log(arrName); //[ 'tom', 'ravi' ]
+arrName[0] = 'naveen';
+console.log(arrName); //[ 'naveen', 'ravi' ]
+arrName[5] = 'rohit';
+console.log(arrName); //[ 'naveen', 'ravi', <3 empty items>, 'rohit' ]
 
-console.log('-----------');
+console.log('******************');
 //hetrogenous array
 let empData = ['pratik', 30, 'SDET1', 'IBM', 12.33, true];
 console.log(empData);
 console.log(typeof empData);//object
 
-console.log('-----------');
+console.log('******************');
 
 const p = [10, 20, 30];//3
 console.log(p);
@@ -58,16 +58,16 @@ p[3] = 40;
 console.log(p);
 
 // p = [12, 34, 56];
-// console.log(p);
+// console.log(p); //TypeError: Assignment to constant variable.
 
-
-console.log('-----------');
+console.log('******************');
 
 //string array
 let products = ['macbook pro', 'imac', 'samsung galaxy'];
 console.log(typeof products);
 
 console.log('-----------');
+
 let nm = Array.of(1, 2, 3, 'naveen', true);
 console.log(nm);//[1,2,3]
 
