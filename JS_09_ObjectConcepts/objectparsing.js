@@ -4,7 +4,7 @@
 //API automation:
 //POST call: url, json
 //user object in JS ---> JSON String
-//(Javascript object notation)
+//JSON :- Javascript object notation
 
 //api response (JSON) --> JS Object
 

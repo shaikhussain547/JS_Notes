@@ -1,5 +1,4 @@
-//callback : a CB function is a simple function passed as an argument to another function, 
-// which will be called later.
+//callback : a CB function is a simple function passed as an argument to another function, which will be called later.
 
 //call by value
 //call by obj ref
@@ -21,6 +20,22 @@ sayHello(sayHi);
 //calling a function by passing a function name
 
 console.log('=============');
+
+/**
+ * 
+ * @param {number} a 
+ * @param {number} b 
+ * @returns 
+ */
+function addNum(a,b){
+    return a+b;
+}
+
+function sumNums(a, b, callback){
+    return callback(a,b);
+}
+
+console.log(sumNums(12,11,addNum));
 
 //utility functions
 let add = (a, b) => a + b;
@@ -49,7 +64,6 @@ console.log('=============');
 
 function initDriver(browserName) {
     console.log('browser name : ', browserName);
-
     switch (browserName.trim().toLowerCase()) {
         case 'chrome':
             console.log('launch chrome');
@@ -60,7 +74,6 @@ function initDriver(browserName) {
         case 'edge':
             console.log('launch edge');
             return true;
-    
         default:
             console.log('plz pass the right browser::', browserName);
             return false;
@@ -116,7 +129,6 @@ function launchBrowser(browserName, callback) {
 
 let flag = launchBrowser('chrome', (browserName) => {
     console.log('browser name : ', browserName);
-
     switch (browserName.trim().toLowerCase()) {
         case 'chrome':
             console.log('launch chrome');
@@ -127,7 +139,6 @@ let flag = launchBrowser('chrome', (browserName) => {
         case 'edge':
             console.log('launch edge');
             return true;
-    
         default:
             console.log('plz pass the right browser::', browserName);
             return false;
@@ -144,11 +155,13 @@ console.log('=============');
 let num = [1, 2, 3, 4, 5];
 num.forEach(e => console.log(e + 5));
 
+//forEach is a method
 
-num.forEach(function (e) {
+num.forEach(
+    function (e) {
     console.log(e + 5);
-});
-
+    }
+);
 
 let nm = num.filter(e => e > 3);
 console.log(nm);
@@ -163,7 +176,7 @@ function perform(callback1, callback2){
 
 perform(() => console.log('hi'), () => console.log('hello'));
 
-console.log('-----------');
+console.log('****************');
 
 
 function calculator(mycallback, ...x){

@@ -16,7 +16,7 @@ let user = {
 console.log(Object.keys(user));//this will print all the keys in user object.
 
 //for in loop:
-for (let key in user) {
+for (let key in user) { //Keys are always strings
     console.log(key, ':', user[key]);
 }
 

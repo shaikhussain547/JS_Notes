@@ -1,3 +1,6 @@
+//functions stores in heap memory
+//called from stack memory references
+
 //1. simple function: no input and no return
 function test() { //0 input
     console.log('test function');
@@ -42,7 +45,7 @@ function add( a, b ) { //2 parameters
     return c;//10naveen: string
 }
 
-let res = add(10, 'naveen'); //2 args
+let res = add(10, 'naveen'); //2 arguments
 console.log(res);
 
 let r = add(100, 200); //2 values/arguments
@@ -137,9 +140,8 @@ function getTotalBilling(productPrice, tax, lateFee, gst) {
 
 };
 
-let amt = getTotalBilling(1000, 10, 20, 5);
+let amt = getTotalBilling(1000, 10, 20);
 console.log(amt);
-
 console.log(typeof getTotalBilling);
 console.log(getTotalBilling.name);
 console.log(getTotalBilling.length);

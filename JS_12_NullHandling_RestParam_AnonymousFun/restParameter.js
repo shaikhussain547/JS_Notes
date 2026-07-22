@@ -10,6 +10,10 @@ function selectCountryFromDropDown(...countryName) {
     }
 };
 
+//selectCountryFromDropDown('India', 'UK', 'UAE', 'USA', 'Russia');
+selectCountryFromDropDown('India');
+selectCountryFromDropDown('India', 'USA');
+
 
 /**
  * 
@@ -25,9 +29,7 @@ function fillValues(name, ...details) {
     }
 };
 
-//selectCountryFromDropDown('India', 'UK', 'UAE', 'USA', 'Russia');
-selectCountryFromDropDown('India');
-selectCountryFromDropDown('India', 'USA');
+
 
 
 fillValues('pawan', 101, 'new colony', 'sector 7', 'bangalore', '65444', 'India');

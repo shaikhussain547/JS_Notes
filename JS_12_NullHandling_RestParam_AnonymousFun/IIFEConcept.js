@@ -27,13 +27,12 @@ function click() {
     console.log('bye');
 
         (function () {
-        console.log('hello world');
+        console.log('hello world - bye');
         })();
 })();
 
 
-(
-    function () {
-        console.log('bye');
+(function () {
+    console.log('bye');
     }
 )();

@@ -1,4 +1,3 @@
-
 //Arrow Function: =>
 //has no name: Annonymous function
 //used in callback function
@@ -7,21 +6,28 @@
 //1. no param arrow function:
 let print = ()=> console.log('hello JS');
 print();
+console.log(print());
+console.log(print);//[Function: print]
 
-//2. 1 param arrow function:
+let write = ()=> (console.log('Hi John'))
+write();
+
+let read = ()=> {console.log('Reading Function');}
+read();
+
+console.log('******************');
+
+//2. 1-param arrow function:
 let printName = (name)=> console.log(name);
 printName('Naveen');
 
-console.log('----------');
 
-let test = (a)=> console.log(a+10);
-test(10);
+let sum = (num)=> console.log(num+10);
+sum(10);
 
-console.log('----------');
 let printNum = (num)=> console.log(`total number:  ${num + 100}`); 
 printNum(40);
 
-console.log('----------');
 
 let printTotal = total => console.log(total + 90);
 printTotal(1000);
@@ -76,15 +82,12 @@ let initBrowser = (browserName) => {
         case 'chrome':
             console.log('launch chrome');
             return true;
-        
         case 'firefox':
             console.log('launch ff');
             return true;
-        
         case 'edge':
             console.log('launch edge');
             return true;
-        
         default:
             console.log('plz pass the right browser', browserName);
             return false;
@@ -98,7 +101,7 @@ if (flag) {
 }
 
 
-console.log('----------');
+console.log('****Rest Param******');
 
 /**
  * 
@@ -128,7 +131,7 @@ rest(['sim', 'mouse'], ['iphe', 'keyboard']);
 
 
 function printData(userData) {
-    console.log(userData.name);
+    console.log(userData.name);//Imtiaz
 }
 
 let user = {

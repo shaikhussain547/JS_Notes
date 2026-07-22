@@ -12,16 +12,16 @@ let u2 = {
     country: 'India'
 };
 
-// console.log(u1.country);
+console.log(u1.country); // undefined
 
-// u1 = u2;
+u1 = u2;
 
-// console.log(u1.name);
-// console.log(u1.age);
-// console.log(u1.country);
+console.log(u1.name);
+console.log(u1.age);
+console.log(u1.country);
 
 
-// console.log(typeof u1);
+console.log(typeof u1); // object
 
 let u3 = {};
 u1 = u3;

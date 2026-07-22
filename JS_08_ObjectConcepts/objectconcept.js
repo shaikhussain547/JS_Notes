@@ -1,18 +1,21 @@
 //object --> non prmitive data type
-//reference type
+//reference types
 //key-value pair format
 
+//Object will be create inside heap memry
+//reference variable will be created inside stack memory
+
 let user = {
-    name: 'Tom',
-    age: 30,
-    city: 'LA',
+    name: 'John',
+    age: 49,
+    city: 'New York',
     isActive: true,
     address: {
         flat: 101,
-        zip: 545454,
-        lat: 10.34,
-        long: 11.22
-    },
+        zip: 235370,
+        lat: 13.592,
+        long: 7.891
+    }
 };
 
 console.log(user);
@@ -37,3 +40,5 @@ console.log(user);
 user.name = 'Tom Autmation';
 console.log(user);
 
+delete user.address;
+console.log(user);

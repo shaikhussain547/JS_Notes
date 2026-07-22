@@ -5,7 +5,10 @@ let cart = function addToCart(productName) {
     return true;
 };
 
+//cart('phone');
+
 console.log(cart('phone'));
+
 
 //function expression name: cart
 //actual function name: addToCart

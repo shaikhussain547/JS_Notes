@@ -6,7 +6,7 @@ let user = {
 };
 
 // console.log(user.name);
-// user = null;
+user = null;
 // console.log(user.name);//null.name: type error
 
 let u1 = {
@@ -15,7 +15,7 @@ let u1 = {
     city: 'pune',
 };
 user = u1;
-
+console.log(user.name);
 
 let u2 = {
     name: 'Tom',
