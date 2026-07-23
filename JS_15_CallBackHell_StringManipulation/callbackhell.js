@@ -4,7 +4,6 @@
 //hard to read
 //hard to debug
 
-
 //example: coffee machine:
 //1. start the machine -- 5 secs
 //2. Grind the beans -- 3 secs
@@ -12,13 +11,14 @@
 //4. Brew Coffee -- 3 secs
 //5. Pour into cup -- 2 secs
 
-// setTimeout((name, age) => {
-//     console.log('hello', name, age);
-// }, 3000, 'Devika', 30);
-
-// setTimeout(() => {
-//     console.log('account is created');
-// }, 4000);
+setTimeout((name, age) => {
+    console.log('hello', name, age);
+}, 3000, 'Devika', 30);
+//once 3 seconds over, program will execute
+setTimeout(() => {
+    console.log('account is created');
+}, 4000);
+//once 4 seconds over, program will execute
 
 function startMachine(callback) {
     setTimeout(() => {
@@ -26,6 +26,10 @@ function startMachine(callback) {
         callback();
     }, 5000);
 };
+
+startMachine(() => {
+    console.log('hello');
+})
 
 function grindBeans(callback) {
     setTimeout(() => {
@@ -40,6 +44,11 @@ function boilWater(callback) {
         callback();
     }, 4000);
 };
+
+startMachine(() => {
+    boilWater(() => {
+    })
+});
 
 function brewCoffee(callback) {
     setTimeout(() => {
@@ -61,12 +70,6 @@ function stopMachine() {
     }, 4000);
 }
 
-
-startMachine(() => {
-    console.log('hello');
-})
-
-
 //calling the functions: 
 startMachine(() => {
     grindBeans(() => {
@@ -79,16 +82,6 @@ startMachine(() => {
         })
     })
 });
-
-
-startMachine(() => {
-    boilWater(() => {
-        stopMachine(() => {
-
-        })
-    })
-});
-
 
 
 // async function makeCoffee() {

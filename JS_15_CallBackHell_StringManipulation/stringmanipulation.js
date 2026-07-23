@@ -14,25 +14,28 @@ console.log(str.endsWith('lo')); // Output: true
 console.log(str.endsWith('hello')); // Output: true
 
 //slice:
-console.log(str.slice(1, 3)); // Output: el
-console.log(str.slice(-3)); // Output: llo
-console.log(str.slice(-1)); // Output: o
-console.log(str.slice(0)); // Output: hello
-console.log(str.slice(-5)); // Output: hello
+let str1 = 'hello';
+console.log(str1.slice(1, 3)); // Output: el
+console.log(str1.slice(1, 4)); // Output: ell
+console.log(str1.slice(2, 4)); // Output: ll
+console.log(str1.slice(-3)); // Output: llo
+console.log(str1.slice(-1)); // Output: o
+console.log(str1.slice(0)); // Output: hello
+console.log(str1.slice(-5)); // Output: hello
 
-console.log(str.slice(-4, -1)); // Output: ell
-console.log(str.slice(-3, -1)); // Output: ll
-console.log(str.slice(-5, -3)); // Output: he
+console.log(str1.slice(-4, -1)); // Output: ell
+console.log(str1.slice(-3, -1)); // Output: ll
+console.log(str1.slice(-5, -3)); // Output: he
 
-console.log(str.slice(-4, 4)); // Output: ello
-console.log(str.slice(-5, 3)); // Output: hel
+console.log(str1.slice(-4, 4)); // Output: ell
+console.log(str1.slice(-5, 3)); // Output: hel
 
 console.log('==========');
-console.log(str.slice(0, -5)); // Output: 
+console.log(str1.slice(0, -5)); // Output: 
 //start>=end
 
 console.log(str.substring(1, 3)); // Output: el
-
+//in substrins negitive indexs are not allowed
 console.log('==========');
 
 
@@ -71,8 +74,8 @@ console.log("hello".concat(" ", " Selenium", " Automation")); // Output: "hello 
 //padding:
 console.log("7".padStart(3, 0)); // Output: "007"
 console.log("7".padEnd(3, 0)); // Output: "700"
-console.log("7".padEnd(3, 'hi')); // Output: "7hi"
-console.log("7".padEnd(7, 'hello')); // Output: "7hello"
+console.log("7".padEnd(5, 'hi')); // Output: "7hihi"
+console.log("7".padEnd(7, 'hello')); // Output: "7helloh"
 
 //repeat:
 console.log("".repeat(3)); // Output: ""

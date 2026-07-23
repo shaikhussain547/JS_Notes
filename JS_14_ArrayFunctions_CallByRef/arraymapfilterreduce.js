@@ -39,7 +39,7 @@ console.log(appleProducts);
 
 let numData = [10, 20, 30, 40, 50];
 
-let total = numData.reduce((sum, n) => sum + n, 0);
+let total = numData.reduce((sum, n) => sum + n, 0); //0 is the initial value
 console.log(total);
 
 let empAddress = ["Sridevi", "500", "Rainbow apts", "Pune", "India"];
