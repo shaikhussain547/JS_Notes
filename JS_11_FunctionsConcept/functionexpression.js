@@ -5,9 +5,12 @@ let cart = function addToCart(productName) {
     return true;
 };
 
-//cart('phone');
+cart('phone');
 
 console.log(cart('phone'));
+
+let flag = cart('mobile');//add to cart mobile
+console.log(typeof flag);//boolean
 
 
 //function expression name: cart

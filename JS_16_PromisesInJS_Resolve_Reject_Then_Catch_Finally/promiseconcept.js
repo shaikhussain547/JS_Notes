@@ -63,7 +63,7 @@ function fetchUser(){
         let flag = false;
         if(flag){
             setTimeout(() => {
-             let user = {
+            let user = {
                 name: 'Tommy',
                 role: 'QA'
             };
@@ -85,7 +85,7 @@ fetchUser()
             console.log(error);
         })
         .finally(() => {
-             console.log('disconnect with DB');
+            console.log('disconnect with DB');
         });
 
 

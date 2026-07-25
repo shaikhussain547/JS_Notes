@@ -102,6 +102,10 @@ function waitForElement(locator,timeout) {
     });
 }
 
+async function waitFor() {
+    await waitForElement('#username', 5000);
+}
+
 function click(element) {
     console.log(`clicking on the element ${element}`);
 }
