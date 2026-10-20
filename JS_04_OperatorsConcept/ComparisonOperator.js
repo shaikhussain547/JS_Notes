@@ -16,6 +16,7 @@ console.log('10' === 10);//false
 let bill = "10000";
 console.log(bill == 10000);//true
 console.log(bill === 10000);//false
+console.log(bill === "10000");//true
 console.log('10' === "10");//true
 
 //true = 1

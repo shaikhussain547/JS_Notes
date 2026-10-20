@@ -46,12 +46,10 @@ console.log(`the sum of n1 and n2 is ${n1 + n2}`);
 let emailId = 'automation@gmail.com';
 let password = 'testing@123';
 
-console.log(`the user credentials : 
-    username : ${emailId} and 
-    password: : ${password}`);     
+console.log(`the user credentials : username : ${emailId} and password: : ${password}`);     
 
 
-let str = `hi this is naveen here`;
+let str = `hi this is John here`;
 console.log(typeof str);    
 
 console.log(emailId, password, 'admin');

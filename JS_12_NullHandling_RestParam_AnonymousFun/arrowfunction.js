@@ -68,8 +68,8 @@ console.log('----------');
  * @param {number} b 
  * @returns this will add two numbers
  */
-let sum = (a, b) => a + b;
-let p1 = sum(10, 20);
+let sum2 = (a, b) => a + b;
+let p1 = sum2(10, 20);
 console.log(p1);
 
 console.log('----------');
@@ -114,7 +114,7 @@ let printDetails =  (...details) => {
     return 0;
 };
 
-let s1 = printDetails('pawan', 'pooja', 'sridevi');
+let s1 = printDetails('Sachin', 'Rohit', 'Dhoni');
 console.log(s1);
 
 

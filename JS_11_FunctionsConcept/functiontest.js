@@ -21,6 +21,6 @@ function search(productname, price) { //2 param
 }
 
 
-// search();
-// search('imac');
+search();
+search('imac');
 search('imac', 1000, 300);

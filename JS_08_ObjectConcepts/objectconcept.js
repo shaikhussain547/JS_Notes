@@ -23,7 +23,7 @@ console.log(user.name);//GET
 console.log(user.age);
 console.log(user.tel); //undefined
 console.log(user['city']);
-
+console.log(user.address);
 console.log(user.address.flat);
 console.log(user.address.lat);
 console.log(user.address['zip']);

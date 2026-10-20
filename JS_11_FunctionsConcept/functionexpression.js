@@ -38,14 +38,14 @@ console.log(waitFor('sim card'));
 console.log(waitFor('sim'));
 
 
-let flag = waitFor('imac');
-console.log(flag);
+let flag1 = waitFor('imac');
+console.log(flag1);
 
-flag = waitFor('macbook');
-console.log(flag);
+flag1 = waitFor('macbook');
+console.log(flag1);
 
-flag = waitFor('samsung');
-console.log(flag);
+flag1 = waitFor('samsung');
+console.log(flag1);
 
 console.log(waitFor.name);
 

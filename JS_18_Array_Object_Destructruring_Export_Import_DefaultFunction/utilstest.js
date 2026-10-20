@@ -1,8 +1,7 @@
 
-// import printInfo, { name, add as sum, test, flag, add } from "./utils.js";
-// import { getRandomNumber } from "./stringutil.js";
 
 import * as utils from './utils.js';
+import { getRandomNumber } from './stringutil.js';
 
 // export function rest() {
 //     console.log('Rest Method');
@@ -15,6 +14,6 @@ utils.test();
 console.log(utils.flag);
 utils.default();
 
-// console.log(getRandomNumber());
+console.log(getRandomNumber());
 
 

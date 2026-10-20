@@ -6,8 +6,8 @@ let world = function () {
     return 100;
 };
 
+world();//hello world
 // console.log(world); //[Function: world]
-console.log(world());
 let t1 = world();//hello world
 console.log(t1);//100
 console.log('********************');

@@ -21,8 +21,8 @@ console.log('----------------');
 
 //2. no input but some return:
 function getTrainerName() {
-    console.log('get trainer name');
-    let trainerName = 'naveen';
+    // console.log('get trainer name');
+    let trainerName = 'John';
     return trainerName;
 }
 
@@ -41,11 +41,11 @@ console.log('----------------');
  */
 function add( a, b ) { //2 parameters
     console.log('adding two numbers....');
-    let c = a + b; //10naveen
-    return c;//10naveen: string
+    let c = a + b;
+    return c;
 }
 
-let res = add(10, 'naveen'); //2 arguments
+let res = add(10, 'John'); //2 arguments
 console.log(res);
 
 let r = add(100, 200); //2 values/arguments
@@ -120,7 +120,7 @@ function getMarks(studentName) {
     
 };
 
-let m2 = getMarks('naveen');
+let m2 = getMarks('John');
 console.log(m2);
 
 

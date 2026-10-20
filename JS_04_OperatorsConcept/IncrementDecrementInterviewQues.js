@@ -38,17 +38,17 @@ console.log("u=" + u);//-19
 
 
 let m = 0, n = 0;
-let p = --m * --n * n-- * m--;
+let p1 = --m * --n * n-- * m--;
 //-1 * -1 * -1 * -1 = 1
 //m=0->-1->-2,n=0->-1->-2
-console.log(p);//1
+console.log(p1);//1
 console.log(m);//-2
 console.log(n);//-2
 
 // console.log(++true);//error
 
-let a = 10n;
-console.log(++a);//11n
+let a1 = 10n;
+console.log(++a1);//11n
 
 let d = 1.5, D = 2.5;
 console.log(d++ + ++D);

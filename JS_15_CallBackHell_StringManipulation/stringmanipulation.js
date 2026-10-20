@@ -3,7 +3,7 @@ let str = 'hello';
 console.log(str.length); // Output: 5
 console.log(str.indexOf('e')); // Output: 1
 console.log(str.indexOf('p')); // Output: -1
-console.log(str.indexOf('l')); // Output: 1
+console.log(str.indexOf('l')); // Output: 2
 console.log(str.lastIndexOf('l')); // Output: 3
 
 console.log(str.includes('ell')); // Output: true

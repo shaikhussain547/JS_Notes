@@ -45,7 +45,7 @@ let div = (a, b) => a / b;
 
 //core function: end user function
 function calculator(a, b, callback) {
-   return callback(a, b);
+    return callback(a, b);
 };
 
 let r1 = calculator(10, 20, add);
@@ -191,4 +191,5 @@ let addition = (...a) => {
     return sum;
 };
 
-calculator(addition, 1, 2, 3, 4);
+let numbers = [1, 2, 3, 4, 5];
+calculator(addition, numbers);

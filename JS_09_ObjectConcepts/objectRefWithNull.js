@@ -7,7 +7,7 @@ let user = {
 
 // console.log(user.name);
 user = null;
-// console.log(user.name);//null.name: type error
+//console.log(user.name);//null.name: type error
 
 let u1 = {
     name: 'naveen',
@@ -25,4 +25,4 @@ let u2 = {
 
 };
 u2 = null;
-console.log(u2.name);//null.name
+console.log(u2.name);//null.name: type error

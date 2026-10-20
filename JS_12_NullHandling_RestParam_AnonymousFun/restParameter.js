@@ -32,4 +32,4 @@ function fillValues(name, ...details) {
 
 
 
-fillValues('pawan', 101, 'new colony', 'sector 7', 'bangalore', '65444', 'India');
+fillValues('John',101, 'new colony', 'sector 7', 'bangalore', '65444', 'India');

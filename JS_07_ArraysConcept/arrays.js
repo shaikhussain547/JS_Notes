@@ -5,11 +5,11 @@
 //number array: 1D Array
 let num = [10, 20, 30, 40]; //0-3; length=4
 
-console.log(num);
+console.log(num);//[ 10, 20, 30, 40 ]
 
 console.log(num[-1]);//undefined
 console.log(num[0]);//10
-console.log(num[3]);
+console.log(num[3]);//40
 console.log(num[4]);//undefined
 console.log(num[40]);//undefined
 
@@ -26,13 +26,13 @@ console.log(num);
 console.log(num.length);//5
 
 num[10] = 100;
-console.log(num);
+console.log(num);//[ 10, 20, 30, 40, 50, <5 empty items>, 100 ]
 console.log(num[8]);//undefined
 console.log(num[9]);//undefined
 console.log(num[10]);
 
 num[8] = 900;
-console.log(num);
+console.log(num);//[ 10, 20, 30, 40, 50, <3 empty items>, 900, <1 empty item>, 100 ]
 
 
 console.log('******************');
@@ -43,6 +43,7 @@ arrName[0] = 'naveen';
 console.log(arrName); //[ 'naveen', 'ravi' ]
 arrName[5] = 'rohit';
 console.log(arrName); //[ 'naveen', 'ravi', <3 empty items>, 'rohit' ]
+console.log(typeof arrName);//object
 
 console.log('******************');
 //hetrogenous array
@@ -54,6 +55,7 @@ console.log('******************');
 
 const p = [10, 20, 30];//3
 console.log(p);
+console.log(typeof p);
 p[3] = 40;
 console.log(p);
 

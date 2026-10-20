@@ -1,7 +1,7 @@
 let num = [10, 20, 30, 40];
 console.log(num);
 
-//push, pop, shift, unshift
+//push, unshift, pop, shift, 
 num.push(50);//will be added after the last element, at the end
 console.log(num);
 num.unshift(5); //will be added at the first index, at the 0th index
@@ -39,7 +39,7 @@ let marks = [1, 2, 3, 4, 1, 5, 6, 1];
 console.log(marks.indexOf(1));//0 -- 1st occurrence of 1
 console.log(marks.indexOf(30));//-1
 console.log(marks.indexOf(1, marks.indexOf(1)+1));//4- 2nd occurrence of 1
-//array.indexOf(searchElement, fromIndex)
+// array.indexOf(searchElement, fromIndex)
 
 let myfruits = ['apple', 'grapes', 'banana', 'apple', 'cherry', 'apple'];
 

@@ -1,6 +1,6 @@
 //callback hell: pyramid of doom
 
-//multiple async operations/tasks, they depnd on each other --- nested callback/indented callbacks
+//multiple async operations/tasks, they depend on each other --- nested callback/indented callbacks
 //hard to read
 //hard to debug
 

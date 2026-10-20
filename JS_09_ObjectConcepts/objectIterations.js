@@ -20,16 +20,20 @@ for (let key in user) { //Keys are always strings
     console.log(key, ':', user[key]);
 }
 
+for(let key of Object.keys(user)){
+    console.log(key, ':', user[key]);
+}
+
 console.log(user.devices.length);//to get the length of the devices
 
 for (let key in user) {
     console.log(key, ':', user[key]);
-    if (key === 'address') { //if you want to interate the address
+    if (key === 'address') { //if you want to iterate the address
         for (let ele in user[key]) {
             console.log(user[key][ele]);
         }
     }
-    if (key === 'devices') { //if you want to interate devices array
+    if (key === 'devices') { //if you want to iterate devices array
         for (let ele of user[key]) {
             console.log(ele);
         }

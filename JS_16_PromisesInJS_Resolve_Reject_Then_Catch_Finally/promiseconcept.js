@@ -1,4 +1,5 @@
 //Promise: is used to handle Async operations(things that take time)
+//A Promise in JavaScript is an object that represents the eventual success or failure of an asynchronous operation.
 /**
  * Example :
  * 1. API calls
@@ -16,6 +17,11 @@
 // cancels the order: Rejected / Error
 
 //3 states: pending, Resolved & Rejected
+
+//async makes a function return a Promise.
+//await pauses the surrounding async function until the Promise settles, then provides its fulfillment value or throws its rejection reason.
+//Other JavaScript execution can continue while the function is waiting.
+//await doesn't block the entire JavaScript runtime.
 
 let myPromise = new Promise((resolve, reject) => {
     let success = true;

@@ -10,7 +10,7 @@ console.log(number);
 let sqrt = number.map(e => e*e);
 console.log(sqrt);
 
-let empNames = ['UDay', 'AnkiTa', 'navya', 'senthil'];
+let empNames = ['Uday', 'Ankita', 'Navya', 'Senthil'];
 let namesUpper = empNames.map(n => n.toUpperCase());
 console.log(namesUpper);
 
@@ -40,7 +40,10 @@ console.log(appleProducts);
 let numData = [10, 20, 30, 40, 50];
 
 let total = numData.reduce((sum, n) => sum + n, 0); //0 is the initial value
-console.log(total);
+console.log(total);//150
+
+total = numData.reduce((sum, n) => sum + n, 2); //2 is the initial value
+console.log(total);//152
 
 let empAddress = ["Sridevi", "500", "Rainbow apts", "Pune", "India"];
 let actualAddress = empAddress.reduce((address, add) => address + add+" ", "");
